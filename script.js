@@ -4492,37 +4492,29 @@ function adjustCardImageFit() {
 
 async function loadStarterPack() {
     try {
-        const response = await fetch('starter_pack.json');
-        if (!response.ok) {
-            throw new Error('starter_pack.json not found or failed to load.');
-        }
-        const data = await response.json();
-        const starterChars = data.characters;
+        const data = window.starterPackData; 
 
+        const starterChars = data.characters;
         if (starterChars && Object.keys(starterChars).length > 0) {
             console.log('First launch: Loading starter pack characters...');
-            
+
             for (const charId in starterChars) {
                 characters[charId] = starterChars[charId];
             }
-            
-            await saveCharactersToDB();
-        const starterAppSettings = data.appSettings;
-        if (starterAppSettings && db) {
-            console.log('First launch: Loading app settings from starter pack...');
-            const transaction = db.transaction(['settings'], 'readwrite');
-            const store = transaction.objectStore('settings');
-            store.put({ key: 'appSettings', value: starterAppSettings });
-            await new Promise((resolve, reject) => {
-                transaction.oncomplete = resolve;
-                transaction.onerror = reject;
-            });
-        }
-}
-} catch (error) {
-console.warn(error.message);
-}
 
+            await saveCharactersToDB();
+
+            const starterAppSettings = data.appSettings;
+            if (starterAppSettings && db) {
+                console.log('First launch: Loading app settings from starter pack...');
+                const transaction = db.transaction(['settings'], 'readwrite');
+                const store = transaction.objectStore('settings');
+                store.put({ key: 'appSettings', value: starterAppSettings });
+            }
+        }
+    } catch (error) {
+        console.warn("Error loading starter pack data from script:", error.message);
+    }
 }
 
 
