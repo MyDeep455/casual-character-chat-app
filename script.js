@@ -1817,7 +1817,7 @@ function escapeHtml(s) {
 function formatSubString(text) {
     if (!text) return '';
 
-    const imageUrlRegex = /(https?:\/\/[^\s<>]+\.(?:jpg|jpeg|png|gif|webp|avif))/gi;
+    const imageUrlRegex = /(https?:\/\/[^\s<>]+\.(?:jpg|jpeg|png|gif|webp|avif)[^\s<>]*)/gi;
     let imagesHtml = '';
 
     let remainingText = text.replace(imageUrlRegex, (url) => {
