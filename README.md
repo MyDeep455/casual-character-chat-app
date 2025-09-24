@@ -4,9 +4,25 @@ Welcome! This application is a fully functional, 100% private app designed for c
 
 This app is a from-scratch development, inspired by many existing AI Chat platforms, but designed to include all the features most users want and offer maximum intuitiveness. My goal was to create a completely free, private, and uncensored character chat application that anyone can use forever on their own computer.
 
+### Upcoming Features
+
+Here are some of the features planned for future updates:
+
+* AI-powered reply suggestions for users to help drive the conversation forward.
+* A fully responsive design for a seamless experience on mobile devices.
+* In-chat AI image generation to visualize characters and scenes.
+
+---
+
 ### A Note on Your Data & Privacy
 
 Your privacy is paramount. All of your data (including every character you create, all your chat histories, images, and your personal settings) is stored directly on your computer inside your browser's secure **IndexedDB** database. This means your data remains entirely on your device, is preserved even after you close the browser tab, and can never be accessed by anyone else.
+
+---
+
+## Bug Reports & Suggestions
+
+If you find a bug or have an idea for a new feature, please let me know! The best way to do this is to open a new ticket in the [Issues tab of this repository](https://github.com/MyDeep455/casual-character-chat-app/issues) or click on the Help & FAQ button in the app and send me an anonymous message from there.
 
 ---
 
@@ -204,6 +220,15 @@ A: The `Character Description` is the active personality—*who the character is
 **Q: Why are my Characters and Personas suddenly gone?**
 A: This happens if your browser's site data was deleted. This can be caused by browser settings that clear data on close or by manually clearing your cache. Use the **Export** feature regularly to create backups!
 
+
+### Quick Troubleshooting
+
+* **Problem: My very first chat message fails with a 404 error or "AI Model did not respond after multiple retries"!**
+  * **Solution:** This is normal. Your new server on Render needs about 60 seconds after the first deployment to be fully ready. Wait a minute and try sending the message again. It's a one-time effect and afterwards everything should work perfectly fine.
+
+* **Problem: The deployment log on Render shows warnings.**
+  * **Solution:** Warnings like `No license field` are completely harmless and can be ignored. As long as the log ends with `Server is running on port 3000 and is ready for connections`, everything is working perfectly.
+
 ---
 
 ## 9. Tutorial: Setup - API & Server (Required)
@@ -218,7 +243,7 @@ The process has four easy parts:
 3.  Set up your own secure Backend Proxy with a single click using **Render**.
 4.  Connect the app to your new proxy by copy & paste just one URL.
 
-### Part 0: Downloading and Running the App
+### Part 1: Downloading and Running the App
 
 First, you need to download the app files to your computer.
 
@@ -226,14 +251,14 @@ First, you need to download the app files to your computer.
 2.  **Unzip the File:** Find the downloaded `.zip` file on your computer (usually in your "Downloads" folder) and unzip/extract it. You will now have a folder with all the app files.
 3.  **Open the App:** Open the new folder and simply double-click the **`index.html`** file. The app will open in your default web browser and is ready for the quick setup below.
 
-### Part 1: Getting Your API Key from OpenRouter
+### Part 2: Getting Your API Key from OpenRouter
 
 1.  **Create an Account:** Go to [OpenRouter.ai](https://openrouter.ai) and create a free account.
 2.  **Add Credits (recommended):** You get 50 messages per day for free. However, for regular use you should add 10 Credits ($10) only one time. Then you'll have 1,000 free meesages per day, forever, even if you spend your 10 Credits. Go to your **Settings -> Credit & Usage** to add the Credits with a one-time-payment.
 3.  **Create a New Key:** Go to your **Keys** page, click "Create Key," and give it a name.
 4.  **Copy Your Key:** Copy the key that starts with `sk-or-v1-...`. **You will not see the full key again after leaving this page, so save it somewhere safe!**
 
-### Part 2: Setting up Your Personal Backend Proxy Server
+### Part 3: Setting up Your Personal Backend Proxy Server
 
 Your API key must be kept secret. This one-click process sets up a secure "messenger" on the internet for free that safely holds your key. Without such a Server it would be highly unsafe. This is mandatory for your own protection, so that no one can ever see your secret API:
 
@@ -253,7 +278,9 @@ Your API key must be kept secret. This one-click process sets up a secure "messe
 
 5.  **Get Your URL:** Once successful, Render will show you the URL for your new service at the top of the page (e.g., `https://my-ai-chat-proxy-123.onrender.com`). **Copy this URL.**
 
-### Part 3: Connecting the App to Your New Proxy
+PLEASE NOTE: After your server goes live for the first time, give it about a minute to fully initialize. Otherwise, your very first chat request to the new server may fail. In that case, simply try it again after a few minutes. This is a one-time effect that only occurs during the very first start.
+
+### Part 4: Connecting the App to Your New Proxy
 
 1.  **Open App Settings:** In the Casual Character Chat app, click the **⚙️ App Settings** button on the main screen.
 2.  **Enter Your URL:** Paste the URL you just copied from Render into the **"Backend Proxy URL"** field.
