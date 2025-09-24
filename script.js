@@ -3745,7 +3745,7 @@ function restoreLastSession() {
 
 
     function checkForNotifications() {
-    const NOTIFICATIONS_URL = 'HERE_COMES_THE_FINAL_NOTIFICATIONS_LINK';
+    const NOTIFICATIONS_URL = 'https://raw.githubusercontent.com/MyDeep455/casual-character-chat-app/refs/heads/main/notifications.json';
 
     fetch(NOTIFICATIONS_URL + '?cachebust=' + new Date().getTime()) 
         .then(response => {
