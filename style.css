@@ -3593,8 +3593,8 @@ body.freeze-body   { position: fixed; width: 100%; overflow: hidden; }
 }
 
 .message-image-container img {
-  max-width: 700px; 
-  max-height: 70vh; 
+  max-width: 100%; 
+  max-height: 1100px; 
   border-radius: 10px;
   object-fit: contain; 
 }
