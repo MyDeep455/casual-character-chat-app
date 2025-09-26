@@ -272,7 +272,7 @@ First, you need to download the app files to your computer.
 3.  **Open the App:** Open the new folder and simply double-click the **`index.html`** file. The app will open in your default web browser and is ready for the quick setup below.
 
 ### Part 2: Getting Your API Key from OpenRouter
-
+(You can skip this part if you already have an OpenRouter API)
 1.  **Create an Account:** Go to [OpenRouter.ai](https://openrouter.ai) and create a free account.
 2.  **Add Credits (recommended):** You get 50 messages per day for free. However, for regular use you should add 10 Credits ($10) only one time. Then you'll have 1,000 free meesages per day, forever, even if you spend your 10 Credits. Go to your **Settings -> Credit & Usage** to add the Credits with a one-time-payment.
 3.  **Create a New Key:** Go to your **Keys** page, click "Create Key," and give it a name.
@@ -292,7 +292,7 @@ Your API key must be kept secret. This one-click process sets up a secure "messe
     * **A unique name** for your service (e.g., `my-ai-chat-proxy-123`).
     * Under the **"Environment"** section, click **"Add Environment Variable"**:
         * **Key:** `OPENROUTER_API_KEY` (name it exactly like that!)
-        * **Value:** Paste your API key from Part 1.
+        * **Value:** Paste your OpenRouter API key.
 
 4.  **Deploy:** Scroll down, ensure the **"Free"** plan is selected, and click the final button **"Create Web Service"** (or you might see something like "Deploy" as final button). The deployment might take a few minutes.
 
