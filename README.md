@@ -4,6 +4,26 @@ Welcome! This application is a fully functional, 100% private app designed for c
 
 This app is a from-scratch development, inspired by many existing AI Chat platforms, but designed to include all the features most users want and offer maximum intuitiveness. My goal was to create a completely free, private, and uncensored character chat application that anyone can use forever on their own computer.
 
+### ✨ Gallery
+
+| Main Screen - Starter Pack | Main Screen - Individual Characters | Persona Management | Chat Dashboard |
+| :---: | :---: | :---: | :---: |
+| ![Main Screen - Starter Pack](gallery/01-starter-pack.png) | ![Main Screen - Individual Characters](gallery/01-main-screen.png) | ![Persona Management](gallery/02-persona-manager.png) | ![Chat Dashboard](gallery/03-chat-list-screen.png) |
+
+| Character Editor - Names, Images, Description | Character Editor - Lore, Prompts, Scenarios | Scenario Selection - New Chat | Chat Screen | 
+| :---: | :---: | :---: | :---: |
+| ![Character Editor - Names, Images, Description](gallery/04-character-editor.png) | ![Character Editor - Lore, Prompts, Scenarios](gallery/05-character-editor.png) | ![Scenario Selection - New Chat](gallery/06-scenario-selection.png) | ![Chat Screen](gallery/07-chat-window.png) |
+
+| Chat Settings | Group Chat Selection | Persona Selection | App Settings - Proxy & AI Models |
+| :---: | :---: | :---: | :---: |
+| ![Chat Settings](gallery/08-chat-settings.png) | ![Group Chat Selection](gallery/09-group-chat-selection.png) | ![Persona Selection](gallery/10-persona-selection.png) | ![App Settings](gallery/11-app-settings.png) |
+
+| App Settings - Global AI Instructions & Reminders | App Settings - AI Model Options |
+| :---: | :---: |
+| ![App Settings - Global AI Instructions & Reminders](gallery/12-app-settings.png) | ![App Settings - AI Model Options](gallery/13-app-settings.png) |
+
+---
+
 ### Upcoming Features
 
 Here are some of the features planned for future updates:
