@@ -1,22 +1,22 @@
 # Casual Character Chat
 
-Welcome! This application is a fully functional, 100% private app designed for creating, managing, and interacting with your own detailed AI characters. The core feature is the ability to engage in dynamic, text-based role-playing chats with the characters you build.
+Welcome! This application is a fully functional, 100% free, private, and uncensored app designed for creating, managing, and interacting with with any AI characters you want in dynamic, text-based role-playing chats.
 
-This app is a from-scratch development, inspired by many existing AI Chat platforms, but designed to include all the features most users want and offer maximum intuitiveness. My goal was to create a completely free, private, and uncensored character chat application that anyone can use forever on their own computer.
+This app has been developed from scratch to offer all the best AI chat features, complete control, and maximum intuitiveness. It is freely available for everyone to use forever on your own computer.
 
 ### ✨ Gallery
 
-| Main Screen - Starter Pack | Main Screen - Individual Characters | Persona Management | Chat Dashboard |
+| Main Screen - Starter Characters | Main Screen - Individual Characters | Persona Management | Chat List Dashboard |
 | :---: | :---: | :---: | :---: |
-| ![Main Screen - Starter Pack](gallery/01-starter-pack.png) | ![Main Screen - Individual Characters](gallery/01-main-screen.png) | ![Persona Management](gallery/02-persona-manager.png) | ![Chat Dashboard](gallery/03-chat-list-screen.png) |
+| ![Main Screen - Starter Characters](gallery/01-starter-pack.png) | ![Main Screen - Individual Characters](gallery/01-main-screen.png) | ![Persona Management](gallery/02-persona-manager.png) | ![Chat List Dashboard](gallery/03-chat-list-screen.png) |
 
-| Character Editor - Names, Images, Description | Character Editor - Lore, Prompts, Scenarios | Scenario Selection - New Chat | Chat Screen | 
+| Character Editor - Names, Images, Description | Character Editor - Lorebook, AI Prompts, Scenarios | Scenario Selection - New Chat | Chat Screen - Full-Screen | 
 | :---: | :---: | :---: | :---: |
-| ![Character Editor - Names, Images, Description](gallery/04-character-editor.png) | ![Character Editor - Lore, Prompts, Scenarios](gallery/05-character-editor.png) | ![Scenario Selection - New Chat](gallery/06-scenario-selection.png) | ![Chat Screen](gallery/07-chat-window.png) |
+| ![Character Editor - Names, Images, Description](gallery/04-character-editor.png) | ![Character Editor - Lorebook, AI Prompts, Scenarios](gallery/05-character-editor.png) | ![Scenario Selection - New Chat](gallery/06-scenario-selection.png) | ![Chat Screen - Full-Screen](gallery/07-chat-window.png) |
 
 | Chat Settings | Group Chat Selection | Persona Selection | App Settings - Proxy & AI Models |
 | :---: | :---: | :---: | :---: |
-| ![Chat Settings](gallery/08-chat-settings.png) | ![Group Chat Selection](gallery/09-group-chat-selection.png) | ![Persona Selection](gallery/10-persona-selection.png) | ![App Settings](gallery/11-app-settings.png) |
+| ![Chat Settings](gallery/08-chat-settings.png) | ![Group Chat Selection](gallery/09-group-chat-selection.png) | ![Persona Selection](gallery/10-persona-selection.png) | ![App Settings - Proxy & AI Models](gallery/11-app-settings.png) |
 
 | App Settings - Global AI Instructions & Reminders | App Settings - AI Model Options |
 | :---: | :---: |
@@ -28,9 +28,9 @@ This app is a from-scratch development, inspired by many existing AI Chat platfo
 
 Here are some of the features planned for future updates:
 
-* AI-powered reply suggestions for users to help drive the conversation forward.
-* A fully responsive design for a seamless experience on mobile devices.
-* In-chat AI image generation to visualize characters and scenes.
+* AI-powered reply suggestions for users
+* Fully responsive mobile app for smartphones
+* In-chat AI image generation with individual API
 
 ---
 
